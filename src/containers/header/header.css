@@ -99,6 +99,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -70px;
 }
 
 .gpt3__header-image img {
@@ -113,9 +114,14 @@
   .gpt3__header-content {
     margin: 0 0 3rem;
   }
+  /* .gpt3__header-image img {
+    width: 80%;
+    height: 60%;
+    margin-left: 7rem;
+  } */
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .gpt3__header h1 {
     font-size: 48px;
     line-height: 60px;
@@ -136,6 +142,9 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .gpt3__header {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 490px) {
@@ -151,5 +160,9 @@
   .gpt3__header-content__input button {
     font-size: 12px;
     line-height: 16px;
+  }
+
+  .gpt3__header {
+    display: block;
   }
 }
